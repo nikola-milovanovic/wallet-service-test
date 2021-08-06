@@ -1,6 +1,12 @@
 spring.profiles.active: develop
 server:
+  servlet:
+    contextPath: /wallet-service
   port: 8090
+
+admin:
+  username: admin
+  password: admin
 ---
 spring:
   profiles: develop
