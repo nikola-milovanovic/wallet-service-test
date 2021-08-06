@@ -9,3 +9,5 @@ The Wallet API (admin/wallet) is accessible only to admin
     password: admin
 
 \* both can be changed in <i>application.yml</i>
+
+The Payment API (/public path) is not secured
